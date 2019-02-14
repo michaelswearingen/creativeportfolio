@@ -1,5 +1,6 @@
 html, body {
     background-color: #233142;
+
 }
 
 h1{
@@ -46,6 +47,7 @@ li a:hover {
   margin: 0 auto;
   margin-top: 20%;
   width:50%;
+  height: auto;
 }
 
 #hey{
@@ -53,6 +55,7 @@ li a:hover {
   font-family: 'BioRhyme', serif;
   font-size: 38px;
   margin-bottom: -50px;
+  display: none;
 }
 
 .name{
@@ -60,6 +63,7 @@ li a:hover {
   font-size: 72px;
   font-weight: bold;
   color: #4f9da6;
+  display: none;
 }
 
 #firstName{
@@ -71,12 +75,33 @@ li a:hover {
   margin-top: -50px;
   font-size: 18px;
   color: #4f9da6;
+  display: none;
 }
 
-img{
+#profile{
   top: 0px;
   height: 100%;
   width: 50%;
   float: right;
   position: absolute;
+  z-index: 1;
+}
+
+#socialUl{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 50px;
+  height: 160px;
+  position: absolute;
+  bottom: 40%;
+  right: 0px;
+  z-index: 2;
+  background-color: #facf5a;
+}
+
+.social{
+  height: 40px;
+  width: 40px;
 }
