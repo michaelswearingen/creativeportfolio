@@ -1,0 +1,59 @@
+html, body {
+    background-color: #233142;
+    overflow: hidden;
+}
+
+h1{
+    color: #facf5a;
+    padding: 14px;
+    margin-bottom: 1px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+ul.navBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: -5px;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #9D9D9D;
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+}
+
+.paragraphs p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: #9D9D9D;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#timeline{
+  height: 150px;
+  width: 75%;
+  margin-top: 3%;
+}
