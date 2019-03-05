@@ -35,14 +35,17 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
+
 }
 
 .content h2{
+  font-family: 'Oswald', sans-serif;
   color: #233142;
 }
 
 .content p{
-  color: white;
+  color: #233142;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 * {
@@ -86,7 +89,7 @@ li a:hover {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FAB740;
+  border: 5px solid #FAB740;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -138,10 +141,14 @@ li a:hover {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #9D9D9D;
+  background-color: white;
   position: relative;
-  
+  border: solid #facf5a 6px;
   border-radius: 6px;
+}
+
+.content:hover{
+  transform: scale(1.07);
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
