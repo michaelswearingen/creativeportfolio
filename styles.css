@@ -102,12 +102,17 @@ li a:hover {
 }
 
 .social{
-  height: 30px;
-  width: 30px;
-
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  margin:0;
+  right: 2px;
 
 }
 
-#topSocial{
-
+.aImg{
+  margin-bottom: 32px;
+}
+.LiImg{
+  margin-right: 20px;
 }
