@@ -92,10 +92,10 @@ li a:hover {
   margin: 0;
   padding: 0;
   display: block;
-  width: 45px;
-  height: 190px;
+  width: 50px;
+  height: 250px;
   position: absolute;
-  bottom: 40%;
+  bottom: 35%;
   right: 0px;
   z-index: 2;
   background-color: #facf5a;
@@ -106,7 +106,7 @@ li a:hover {
   height: 40px;
   width: 40px;
   margin:0;
-  right: 2px;
+  right: 4px;
 
 }
 
