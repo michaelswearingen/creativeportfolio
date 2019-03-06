@@ -1,6 +1,6 @@
 html, body {
     background-color: #233142;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 h1{
@@ -36,6 +36,10 @@ li a {
 li a:hover {
 }
 
+.paragraphs{
+  margin-bottom: 50px;
+}
+
 .paragraphs p{
   font-family: 'Oswald', sans-serif;
   font-size: 24px;
@@ -53,8 +57,10 @@ li a:hover {
 }
 
 #timeline{
-  height: 150px;
+  height: 25%;
   width: 75%;
   margin-top: 3%;
+  border: solid #facf5a 6px;
+  border-radius: 6px;
 
 }

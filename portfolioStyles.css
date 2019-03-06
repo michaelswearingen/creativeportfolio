@@ -53,28 +53,13 @@ li a:hover {
 .content p{
   color: #233142;
   font-family: 'Ubuntu', sans-serif;
-  display: none;
 }
 
 
 .portfolioPics{
   width: 100%;
   height: 50%;
-  display: none;
-}
-.timelineLinks:hover img{
-  -webkit-animation: fadein 3s;
-  display: block;
-}
 
-.timelineLinks:hover p{
-  -webkit-animation: fadein 3s;
-  display: block;
-}
-
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
 }
 
 * {
