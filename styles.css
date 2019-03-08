@@ -118,28 +118,30 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  html, body{
-    height: 100%;
-    background-color: red;
-  }
-
   #profile{
-    display: none;
+    height: 25%;
+    width: 50%;
+    border-radius: 50%;
+    top: 0px;
+    float: none;
+    position: absolute;
+    z-index:5;
+    right: 25%;
+    margin-top: 55%;
+    border: solid #facf5a 5px;
   }
-
-  #title{
-    text-align: center;
-  }
-
   .navBar li{
     position: relative;
     margin: 0 auto;
    }
    .container{
+     height: 50%;
      width: 100%;
+     bottom: 0;
+     position: absolute;
    }
    #content{
-
+     height: 100%;
    }
    #hey{
      margin: 0;
@@ -147,10 +149,31 @@ li a:hover {
    }
    .name{
      margin: 0;
-     font-size: 12px;
+     margin-top: 5%;
+     font-size: 36px;
    }
+   #firstName{
+     margin-bottom: -10px;
+   }
+
    #sig{
      margin: 0;
-     margin-top:0px;
+     margin-top:5%;
+   }
+
+   #socialUl{
+     bottom: 70%;
+     width: 33px;
+     height: 160px;
+   }
+   .social{
+     position: fixed;
+     height: 20px;
+     width: 20px;
+     margin:0;
+     right: 10px;
+   }
+   .aImg{
+     margin-bottom: 10px;
    }
 }
